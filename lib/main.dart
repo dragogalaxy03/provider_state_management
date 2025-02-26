@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newday/Screens/Crypto/crypto-list-screen.dart';
+import 'package:newday/Screens/attachment.dart';
 import 'package:provider/provider.dart';
 
 import 'Provider/crypto-provider.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system, // Automatically switch theme
-      home: CryptoListScreen(),
+      home: CreateTaskScreen(),
     );
   }
 }
