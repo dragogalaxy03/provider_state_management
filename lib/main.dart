@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:newday/AddressForm/business-form.dart';
+import 'package:newday/Media/add_media_screen.dart';
+import 'package:newday/My%20Media/my_media_screen.dart';
 import 'package:newday/Screens/Crypto/crypto-list-screen.dart';
 import 'package:newday/Screens/Offer/offer-screen.dart';
 import 'package:newday/Screens/attachment.dart';
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system, // Automatically switch theme
-      home: BusinessForm(),
+      home: MyMediaScreen(),
     );
   }
 }
